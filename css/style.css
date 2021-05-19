@@ -6,6 +6,7 @@
 .text-uppercase{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 /* button{
@@ -15,6 +16,10 @@
     color: white;
     font-weight: bold;
     padding-right: 20px;
+} */
+
+/* #navbarNav{
+    padding-left: 950px;
 } */
 
 .contenitore{
@@ -62,6 +67,17 @@ h2{
     background-color: rgb(0, 168, 84);
     height: 100px;
     width: 100%;
+}
+
+.button{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(0, 168, 84);
+    border: 1px solid white;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .footer-top{

@@ -84,18 +84,33 @@ h2{
     background-color: darkslategray;
 }
 
+
 .alto{
-    background-color: red;
-    height: 100px;
+    background-color: darkslategray;
+    height: 200px;
     width: 100%;
+    text-align: center;
+    color: white;   
+    display: flex;
+    align-items: center;
+}
+
+h4{
+    text-transform: uppercase;
 }
 
 .footer-bottom{
     background-color: rgb(29, 47, 47);
+    height: 50px;
 }
 
 .basso{
-    background-color: red;
-    height: 100px;
+    background-color: rgb(29, 47, 47);
+    height: 100%;
     width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: 50%;
 }

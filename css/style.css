@@ -26,18 +26,110 @@ button{
     margin-right: 180px;
 }
 
-.container{
-    background-color: springgreen;
+.contenitore{
+    height: 80vh;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.two{
     height: 100vh;
     width: 100%;
     margin: 0;
     position: relative;
 }
 
-/* .avatar-img{
+.one, .three{
+    background-color: rgb(0, 168, 84);
+    margin: 0;
+}
+
+.avatar-img{
     position: absolute;
     top: 50%;
     left: 50%;
+    bottom: 145px;
     transform: translate(-50%, -50%);
     height: 200px;
-} */
+}
+
+.titolo-avatar{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 120px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titolo-portfolio{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.portfolio{
+    padding: 150px;
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.col-xs {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+
+.col-xs-1 {
+    flex-basis: calc((100% / 3) * 1);
+    max-width: calc((100% / 3) * 1);
+}
+
+.img{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.titolo-about{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.col-xs-2 {
+    flex-basis: calc((100% / 2) * 1);
+    max-width: calc((100% / 2) * 1);
+    display: inline;
+}
+
+.txt{
+    color: white;
+    background-color: violet;
+    flex-wrap: nowrap;
+    width: 100px;
+}

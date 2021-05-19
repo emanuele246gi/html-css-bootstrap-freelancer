@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bootstrap Freelancer</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
@@ -12,21 +12,23 @@
 
     <!-- Intestazione -->
     <header>
-        <nav>
-            <div class="inizio">
-                <button class="bootstrap">
-                    START BOOTSTRAP
-                </button>
-                <div class="navigazione">
-                    <button>
-                        PORTFOLIO
-                    </button>
-                    <button>
-                        ABOUT
-                    </button>
-                    <button>
-                        CONTACT
-                    </button>
+        <nav class="navbar navbar-expand-lg navbar-light bg-navbar">
+            <div class="container">
+                <div class="text-uppercase">
+                    <a class="navbar-brand" href="#">Start Bootstrap</a>
+                </div>
+                <div class="inizio">
+                    <div class="navigazione">
+                        <button>
+                            Portfolio
+                        </button>
+                        <button>
+                            About
+                        </button>
+                        <button>
+                            Contact
+                        </button>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -36,80 +38,141 @@
     <main>
 
         <!-- Sezione uno -->
-        <section class="contenitore one">
-            <div class="avatar">
-                <img src="img/avatar.svg" alt="" class="avatar-img">
-            </div>
-            <div class="titolo-avatar">
-                <h2>START BOOTSTRAP</h2>
+        <section class="jumbotron contenitore one">
+            <div class="container">
+                <div class="row">
+                    <div class="avatar">
+                        <img src="img/avatar.svg" alt="" class="avatar-img">
+                    </div>
+                    <div class="titolo-avatar">
+                        <h2>START BOOTSTRAP</h2>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- Sezione due -->
-        <section class="contenitore two">
-            <div class="titolo-portfolio">
-                <h2>PORTFOLIO</h2>
-            </div>
-            <div class="row portfolio">
-                <div class="col-xs-1">
-                    <div class="box uno">
-                        <img src="img/cabin.png" alt="" class="img">
-                    </div>
+        <section id="portfolio" class="contenitore two">
+            <div class="container">
+                <div class="row titolo-portfolio">
+                    <div class="col-12 text-center"><h2>PORTFOLIO</h2></div>
                 </div>
-                <div class="col-xs-1">
-                    <div class="box due">
-                        <img src="img/cake.png" alt="" class="img">
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="box uno">
+                            <img src="img/cabin.png" alt="" class="img">
+                        </div>
                     </div>
-                </div>
-                <div class="col-xs-1">
-                    <div class="box due">
-                        <img src="img/circus.png" alt="" class="img">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="box due">
+                            <img src="img/cake.png" alt="" class="img">
+                        </div>
                     </div>
-                </div>
-                <div class="col-xs-1">
-                    <div class="box due">
-                        <img src="img/game.png" alt="" class="img">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="box due">
+                            <img src="img/circus.png" alt="" class="img">
+                        </div>
                     </div>
-                </div>
-                <div class="col-xs-1">
-                    <div class="box due">
-                        <img src="img/safe.png" alt="" class="img">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="box due">
+                            <img src="img/game.png" alt="" class="img">
+                        </div>
                     </div>
-                </div>
-                <div class="col-xs-1">
-                    <div class="box due">
-                        <img src="img/submarine.png" alt="" class="img">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="box due">
+                            <img src="img/safe.png" alt="" class="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="box due">
+                            <img src="img/submarine.png" alt="" class="img">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Sezione tre -->
-        <section class="contenitore three">
-            <div class="titolo-about">
-                <h2>ABOUT</h2>
-            </div>
-            <div class="row">
-                <div class="col-xs-2">
-                    <div class="txt l">
-                        Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.
+        <section id="about" class="contenitore three">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-5 text-center">
+                        <h2>About</h2>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-2">
-                    <div class="txt r">
-                        Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.
+                <div class="row">
+                    <div class="col-12 offset-md-1 col-md-5">
+                        <div class="box text">
+                            Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <div class="box text">
+                            Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share projects, this template is the perfect starting point!
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 mt-5 text-center">
+                        Download
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Sezione quattro -->
+        <section id="contatti" class="contenitore four">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2>Contatti</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 offset-md-1 col-md-10">
+                        <div class="box">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
     <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="box alto">
 
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="box alto">
+                            
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="box alto">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="box basso">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>

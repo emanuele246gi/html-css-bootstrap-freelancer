@@ -80,6 +80,11 @@ h2{
     padding-right: 15px;
 }
 
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
 .footer-top{
     background-color: darkslategray;
 }
@@ -88,8 +93,7 @@ h2{
 .alto{
     background-color: darkslategray;
     height: 200px;
-    width: 100%;
-    text-align: center;
+    width: 600px;
     color: white;   
     display: flex;
     align-items: center;

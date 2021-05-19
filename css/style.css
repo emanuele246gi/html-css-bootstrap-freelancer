@@ -1,21 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .navbar{
-    padding-top: -70px;
     background-color:darkslategray;
+    height: 10vh;
 }
 
-.inizio{
-
-    height: 10vh;
+.text-uppercase{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding-left: 180px;
 }
 
 /* button{
@@ -26,10 +16,6 @@
     font-weight: bold;
     padding-right: 20px;
 } */
-
-.navigazione{
-    margin-right: 180px;
-}
 
 .contenitore{
     height: 80vh;
